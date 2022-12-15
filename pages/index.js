@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-heroimage h-90vh bg-cover bg-right">
-          <div className="bg-violet-900 bg-opacity-60 h-90vh w-screen text-center p-12">
+        <div className="bg-heroimage min-h-90vh bg-cover bg-right">
+          <div className="bg-violet-900 bg-opacity-60 min-h-90vh w-screen text-center p-12">
             <div className="flex flex-col justify-center items-center max-h-70vh max-w-lg xl:max-w-full p-12 m-6">
               <div className="font-bold text-violet-200 p-2 m-4">
                 <h1 className="text-4xl md:text-4xl xl:text-6xl font-bold text-violet-200 p-2">Online English Classes</h1>
@@ -25,8 +25,7 @@ export default function Home() {
                   <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl p-6 xl:p-12 m-2 text-violet-300">
                     <h2 className="text-violet-300 font-bold text-xl lg:text-2xl p-2">Beginner</h2>
                     <h3 className="text-violet-300 text-xl md:text-2xl p-2">低级</h3>
-                    <p className="text-violet-300 opacity-60 p-2">Colors - Numbers </p>
-                    <p className="text-violet-300 opacity-60 p-2">颜色 - 数字 </p>
+                    <h3 className="text-violet-300 opacity-60">CEFR Level A1 - A2</h3>
                   </div>
                 </Link>
                 <Link href="/intermediate">

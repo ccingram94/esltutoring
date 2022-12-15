@@ -13,6 +13,10 @@ module.exports = {
         '90vh': '90vh',
         '70vh': '70vh',
       },
+      minHeight: {
+        '90vh': '90vh',
+        '70vh': '70vh',
+      },
     },
   },
   plugins: [],
