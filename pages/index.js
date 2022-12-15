@@ -15,31 +15,31 @@ export default function Home() {
       <main>
         <div className="bg-heroimage min-h-90vh bg-cover bg-right">
           <div className="bg-violet-900 bg-opacity-60 min-h-90vh w-screen text-center p-12">
-            <div className="flex flex-col justify-center items-center max-h-70vh max-w-lg xl:max-w-full p-12 m-6">
+            <div className="flex flex-col justify-center items-center min-h-70vh max-w-lg xl:max-w-full p-12 m-6">
               <div className="font-bold text-violet-200 p-2 m-4">
                 <h1 className="text-4xl md:text-4xl xl:text-6xl font-bold text-violet-200 p-2">Online English Classes</h1>
                 <h2 className="text-2xl md:text-3xl xl:text-4xl font-bold text-violet-200 p-2">在线英语学习</h2>
               </div>
               <div className="flex flex-row flex-wrap justify-center p-2 max-h-70vh">
                 <Link href="/beginner">
-                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl p-6 xl:p-12 m-2 text-violet-300">
+                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl m-2 p-2 lg:p-4 xl:p-12 text-violet-300">
                     <h2 className="text-violet-300 font-bold text-xl lg:text-2xl p-2">Beginner</h2>
                     <h3 className="text-violet-300 text-xl md:text-2xl p-2">低级</h3>
-                    <h3 className="text-violet-300 opacity-60">CEFR Level A1 - A2</h3>
+                    <h3 className="text-violet-300 opacity-60 text-sm">CEFR Level A1 - A2</h3>
                   </div>
                 </Link>
                 <Link href="/intermediate">
-                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl p-6 xl:p-12 m-2">
+                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl m-2 p-2 lg:p-4 xl:p-12">
                     <h2 className="text-violet-300 font-bold text-xl lg:text-2xl p-2">Intermediate</h2>
                     <h3 className="text-violet-300 text-xl md:text-2xl p-2">中级</h3>
-                    <h3 className="text-violet-300 opacity-60">CEFR Level B1 - B2</h3>
+                    <h3 className="text-violet-300 opacity-60 text-sm">CEFR Level B1 - B2</h3>
                   </div>                  
                 </Link>
                 <Link href="/advanced">
-                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl p-6 xl:p-12 m-2">
+                  <div className="bg-violet-300 bg-opacity-20 hover:bg-opacity-30 transition-all rounded-xl m-2 p-2 lg:p-4 xl:p-12">
                     <h2 className="text-violet-300 font-bold text-xl lg:text-2xl p-2">Advanced</h2>
                     <h3 className="text-violet-300 text-xl md:text-2xl p-2">高级</h3>
-                    <h3 className="text-violet-300 opacity-60">CEFR Level C1 - C2</h3>
+                    <h3 className="text-violet-300 opacity-60 text-sm">CEFR Level C1 - C2</h3>
                   </div>
                 </Link>
               </div>
